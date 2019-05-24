@@ -6,11 +6,7 @@ Created on Thu May 23 19:15:22 2019
 """
 
 import pysmash
-import pickle, csv
-
-with open('outputs.csv', 'r') as f:
-    reader = csv.reader(f)
-    print( list(reader) )
+import pickle
 
 smash = pysmash.SmashGG()
 crawlTourns = [
